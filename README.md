@@ -1,8 +1,7 @@
-# Saccoss
+#Second Hand Book Store
 **Version 1.0.0**
 
-This is the project for the Accouting management for the Saccoss
-
+This is the project for the Books store management 
 ---
 ## Contributor
 [Niranjan Bekoju]('bekojuniranjan@gmail.com')

@@ -45,8 +45,7 @@ if (isset($_POST) && !empty($_POST)) {
 					}
 				}
 				debugger($_SESSION);
-
-
+				setFlash('../','error','Email Doesnot Matched.');
 			}else{
 				setFlash('../','error','Password Required.');
 			}

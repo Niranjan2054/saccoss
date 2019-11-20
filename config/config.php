@@ -10,17 +10,17 @@ if ($_SERVER['SERVER_ADDR']=='127.0.0.1' || $_SERVER['SERVER_ADDR']=="::1") {
 if (ENVIRONMENT == 'DEVELOPMENT') {
 	error_reporting(E_ALL);
 	define('DB_HOST', 'localhost');
-	define('DB_NAME', 'ecommerce');
+	define('DB_NAME', 'account');
 	define('DB_USER', 'root');
 	define('DB_PWD', '');
-	define('SITE_URL', 'http://www.hamropasal.com/');
+	define('SITE_URL', 'http://www.account.com/');
 }else{
 	error_reporting(0);
 	define('DB_HOST', 'localhost');
-	define('DB_NAME', 'newsportal');
+	define('DB_NAME', 'account');
 	define('DB_USER', 'root');
 	define('DB_PWD', '');
-	define('SITE_URL', 'www.nepalbajar.com');
+	define('SITE_URL', 'www.account.com');
 }
 define('CMS_PATH', SITE_URL.'cms/');
 define('ASSESTS_PATH', CMS_PATH.'assets/');
@@ -33,4 +33,4 @@ define('JS_PATH', ASSESTS_PATH.'js/');
 define('ERROR_PATH', $_SERVER['DOCUMENT_ROOT'].'error/');
 define('CLASS_PATH', $_SERVER['DOCUMENT_ROOT'].'class/');
 define('CONFIG_PATH', $_SERVER['DOCUMENT_ROOT'].'config/');
-define('SITE_NAME', 'hamropasal.com');
+define('SITE_NAME', 'account.com');
